@@ -1,0 +1,20 @@
+{
+  "name": "scribe-cli",
+  "version": "1.0.0",
+  "description": "scribe remote server command line tool",
+  "main": "scribe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "scribe": "scribe.js"
+  },
+  "author": "austin howlett",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "dotenv": "^6.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
